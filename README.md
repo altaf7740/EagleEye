@@ -17,9 +17,13 @@ EagleEye consists the following features:-
 In order to get the EagleEye follow the following steps:-
 
 1. Download the zip of the repository or clone the repository using the git clone command as mention bellow
+	
+	
 	git clone https://github.com/altaf7740/EagleEye.git
 
 2. Navigate to the EagleEye directory 
+	
+
 	cd EagleEye
 
 3. Open the EagleEye.py by hitting the mouse button twice or using the below command
