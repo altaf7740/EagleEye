@@ -11,7 +11,7 @@ EagleEye consists the following features:-
 - System Independent
 - Light Weight
 - Easy to extend
-- Can work the administrator privilleges
+- Can work without the administrator privilleges
 
 
 In order to get the EagleEye follow the following steps:-
