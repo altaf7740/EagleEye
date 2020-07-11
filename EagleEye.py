@@ -11,7 +11,7 @@ import socket, json, base64, webbrowser, sys
 class Listener:
     def __init__(self):
         root=tk.Tk()
-        root.title("listenter frontend")
+        root.title("EagleEye")
         root.geometry("950x650")
 
         # list of logo
@@ -436,7 +436,7 @@ class Listener:
         self.execute_command_entry.delete(0, 'end')
 
 def main():
-    print("Note that by using this software, if you ever see the creator of '8u7!N07!c3', you should (optional) give him a hug and should (optional) buy him a bourbon. Author has the option to refuse the hug and borbon (most likely will never happen)\n\n\nThe tool '8u7!N07!c3'  is designed purely for good and not evil. \nIf you are planning on using this tool for malicious purposes that are not authorized by the company you are performing assessments for, \nyou are violating the terms of service and license of this toolset\nBy hitting yes, \nyou agree to the terms of service and that you will only use this tool for lawful purposes only.\n\nDo you agree to the terms of service [y/n]:  ",end="")
+    print("Note that by using this software, if you ever see the creator of 'EagleEye', you should (optional) give him a hug and should (optional) buy him a bourbon. Author has the option to refuse the hug and borbon (most likely will never happen)\n\n\nThe tool 'EagleEye'  is designed purely for good and not evil. \nIf you are planning on using this tool for malicious purposes that are not authorized by the company you are performing assessments for, \nyou are violating the terms of service and license of this toolset\nBy hitting yes, \nyou agree to the terms of service and that you will only use this tool for lawful purposes only.\n\nDo you agree to the terms of service [y/n]:  ",end="")
     user_answer = input("")
     if user_answer == 'y' or user_answer == 'Y' or user_answer == 'yes' or user_answer == 'YES' or user_answer=='Yes':
         obj=Listener()
