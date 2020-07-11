@@ -265,7 +265,7 @@ class Listener:
             self.create_tab.update_idletasks()
             if self.os.get() == "windows":
                 self.compile_for_windows(self.output.get())
-            if self.os.get() == "linux":
+            else:
                 self.compile_for_linux(self.output.get())
 
             self.progressbar['value']=90

